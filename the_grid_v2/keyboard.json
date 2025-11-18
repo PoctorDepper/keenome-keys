@@ -4,6 +4,7 @@
 		"maintainer": "Keenome Keys",
 		"bootloader": "rp2040",
 		"features": {
+			"rgblight": true,
 			"bootmagic": true,
 			"extrakey": true,
 			"mousekey": true,
@@ -18,6 +19,18 @@
 			]
 		},
 		"processor": "RP2040",
+		"ws2812": {
+			"pin": "GP26",
+			"driver": "vendor"
+		},
+		"rgblight": {
+			"led_count": 16,
+			"animations": {
+				"breathing": true,
+				"rainbow_mood": true,
+				"snake": true
+			}
+		},
 		"url": "",
 		"usb": {
 			"device_version": "1.0.0",
