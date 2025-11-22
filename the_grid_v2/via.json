@@ -2,7 +2,7 @@
 	"name": "The Grid v2",
 	"vendorId": "0x6167",
 	"productId": "0x0001",
-	"menus": ["qmk_rgblight"],
+	"menus": ["qmk_rgb_matrix"],
 	"matrix": {
 		"rows": 4,
 		"cols": 4
